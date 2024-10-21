@@ -23,8 +23,7 @@ services:
       - php
   # MariaDB Service
   mariadb:
-    image: mariadb:latest
-    #image: mysql:latest
+    image: mysql:latest
     environment:
       MYSQL_DATABASE: ${DB_SCHEMA_NAME}
       MYSQL_USER: ${DB_USER}
