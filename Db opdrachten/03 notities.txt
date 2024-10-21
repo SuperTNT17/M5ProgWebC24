@@ -1,0 +1,9 @@
+ING
+Bijlmerdreef 106, Amsterdam, Nederland
+straat (varchar), nummer (int), stad (varchar), land (varchar)
+
+waarom we deze eigenschappen aanvinken:
+het is de primary key van de tabel, er moet altijd een waarde in zitten dus het kan niet null zijn
+het is de primary key dus er mag geen andere column hetzelfde zijn
+de waardes mogen niet negatief zijn dus unsigned
+auto increment, want we willen dat er automatisch 1 bij komt voor ieder object in de database, zodat we de id's kunnen gebruiken.
